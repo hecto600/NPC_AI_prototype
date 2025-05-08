@@ -1,11 +1,11 @@
-# Summary
+# Table of content
 + [Description](#desc)
 + [NPC AI](#npc-ai)
     + [Search mode](#search-mode)
     + [Attack mode](#attack-mode)
     + [Alert mode](#alert-mode)
     + [Patrol mode](#patrol-mode)
-+
++ [Running the application](#running-the-application)
 
 # Description
 This project is a prototype of an NPC AI that uses FSM to make decisions,
@@ -45,5 +45,7 @@ If the NPC detects the player it goes to the search mode.
 
 ![patrol_mode](./illustrations/patrol_mode.gif)
 
-# How to execute the project
-Download the binaries at [releases page](https://github.com/hecto600/NPC_AI_prototype/releases)
+# Running the application
+Download the binaries at [releases page](https://github.com/hecto600/NPC_AI_prototype/releases).
+Developed with godot 4. If you prefer to build it yourself, the source code is
+available [here](https://github.com/hecto600/NPC_AI_prototype/releases).
