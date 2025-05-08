@@ -1,5 +1,17 @@
+# Summary
++ [Description](#desc)
++ [NPC AI](#npc-ai)
+    + [Search mode](#search-mode)
+    + [Attack mode](#attack-mode)
+    + [Alert mode](#alert-mode)
+    + [Patrol mode](#patrol-mode)
++
+
+# Description
 This project is a prototype of an NPC AI that uses FSM to make decisions,
 defining its behavior according to the player's actions.
+
+# NPC AI
 The NPC has two sensors:
 + Vision
     If the player enters the cone-shaped area, the NPC detects the player if
@@ -32,3 +44,6 @@ detects the player, it switches back to the attack mode state.
 If the NPC detects the player it goes to the search mode.
 
 ![patrol_mode](./illustrations/patrol_mode.gif)
+
+# How to execute the project
+Download the binaries at [releases page](https://github.com/hecto600/NPC_AI_prototype/releases)
