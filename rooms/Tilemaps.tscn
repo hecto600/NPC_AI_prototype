@@ -1,0 +1,27 @@
+[gd_scene load_steps=6 format=3 uid="uid://bsgqbxb35xm3d"]
+
+[ext_resource type="Texture2D" uid="uid://cj4ukoglm1idl" path="res://common/floor.png" id="1_kgvgc"]
+[ext_resource type="Texture2D" uid="uid://cxmg6oqg8f7ku" path="res://common/box.png" id="2_71yqm"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mu0ki"]
+texture = ExtResource("1_kgvgc")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_onqor"]
+texture = ExtResource("2_71yqm")
+texture_region_size = Vector2i(128, 128)
+0:0/0 = 0
+0:0/0/z_index = 1
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+
+[sub_resource type="TileSet" id="TileSet_acmmo"]
+tile_size = Vector2i(64, 64)
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_mu0ki")
+sources/1 = SubResource("TileSetAtlasSource_onqor")
+
+[node name="TileMap" type="TileMap"]
+tile_set = SubResource("TileSet_acmmo")
+rendering_quadrant_size = 64
+format = 2
