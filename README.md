@@ -48,4 +48,4 @@ If the NPC detects the player it goes to the search mode.
 # Running the application
 Download the binaries at [releases page](https://github.com/hecto600/NPC_AI_prototype/releases).
 Developed with godot 4. If you prefer to build it yourself, the source code is
-available [here](https://github.com/hecto600/NPC_AI_prototype/releases).
+available.
