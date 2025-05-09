@@ -14,11 +14,11 @@ defining its behavior according to the player's actions.
 # NPC AI
 The NPC has two sensors:
 + Vision
-    If the player enters the cone-shaped area, the NPC detects the player if
+    + If the player enters the cone-shaped area, the NPC detects the player if
     there is no obstacle between them. 
 
 + Speed
-    If the player runs within the detection area of the aqua-colored circle, the
+    + If the player runs within the detection area of the aqua-colored circle, the
     NPC detects him, even through obstacles between them.
 
 ## Search mode
